@@ -31,7 +31,7 @@
                         <div class="col-lg-6">
                             <div class="p-5">
                                 <div class="text-center">
-                                    <h1 class="h4 text-gray-900 mb-4">{{ __('Welcome') }}</h1>
+                                    <h1 class="h4 text-gray-900 mb-4">{{ __('Doctorino Register') }}</h1>
                                 </div>
                                 <form method="POST" action="{{ route('register') }}" class="user">
                                     @csrf
@@ -84,7 +84,7 @@
                                             <input id="password-confirm" type="password" class="form-control" name="password_confirmation" required autocomplete="new-password">
                                         </div>
                                     </div>
-                                    <button class="btn btn-primary btn-user btn-block" type="submit"> {{ __('Login') }}</button>
+                                    <button class="btn btn-primary btn-user btn-block" type="submit"> {{ __('Register') }}</button>
                                 </form>
                                 <hr>
                                     <div class="text-center">
