@@ -1,0 +1,48 @@
+
+body{
+    margin-top:10px;
+    background:#eee;
+}
+.ins_name{
+    font-weight: 700;
+    font-size: medium;
+}
+.header-part {
+    padding: 10px;
+}
+.applicant-picture img {
+    width: 100px;
+    height: 100px;
+}
+p.admission_date {
+    margin-top: 31px;
+}
+
+  /* print styles */
+  @media print {
+
+    body {
+      margin: 0;
+      color: #000;
+      background-color: #fff;
+    }
+
+    .university-info{
+        margin-left: 130px;
+        margin-top: -85px;
+    }
+    .applicant-picture{
+        margin-top: -100px;
+    }
+    .applicant-signature{
+        margin-top: -50px;
+    }
+    .panel-default {
+        border-color: transparent;
+    }
+
+    .action_button{
+        display: none;
+    }
+
+  }
